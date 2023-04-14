@@ -1,0 +1,3 @@
+include 'core', 'lwjgl3', 'teavm'
+include ':flexitiles'
+project(':flexitiles').projectDir = new File('../FlexiTiles/core')
